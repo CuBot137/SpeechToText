@@ -9,7 +9,10 @@
     <label>Name: <input type="text" name="name"></label>
     <label>Age: <input type="text" name="age"></label>
     <button type="submit">Submit</button>
+</form>
 
+<form th:action="@{/audio}" method="post">
+    <label th:text="${trans}"></label>
 </form>
 </body>
 </html>
